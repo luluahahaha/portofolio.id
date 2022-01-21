@@ -130,29 +130,10 @@ a{
 }
 
 img{
-   
-    width:220px;
-    height: 220px;
-    margin-left: 1px;
-    position:relative;
-    border-radius: .5rem;
-    justify-self: center;
-}
-
-.instafeed-container{
-    padding-top: 2rem;
-    width:220px;
-    height: 220px;
-    margin-left: 1px;
-    position:relative;
-    border-radius: .5rem;
-    justify-self: center;
-}
-
-#about-img{
     max-width: 100%;
     height: auto;
 }
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section{
     padding: 2rem;
@@ -418,7 +399,7 @@ img{
     width:200px;
     border-radius: .5rem;
     justify-self: center;
-    align-self: center;
+    align-self: center; 
 }
 
 .about__description{
@@ -877,6 +858,7 @@ img{
     background-color: var(--input-color);
     border-radius: .5rem;
     padding: .75rem 1rem .25rem;
+    width: 380px;
 }
 
 .contact__label{
@@ -885,7 +867,7 @@ img{
 }
 
 .contact__input{
-    width: 100%;
+    width: 340px;
     background-color: var(--input-color);
     color: var(--text-color);
     font-family: var(--body-font);
@@ -941,7 +923,6 @@ img{
     font-size:var(--smaller-font-size);
     text-align: center;
     color: whitesmoke;
-   
 }
  
 .footer__title,
